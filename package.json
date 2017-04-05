@@ -1,0 +1,32 @@
+{
+  "name": "12min",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js",
+    "pdf": "babel-node converttoPDF.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "babel": "^6.5.2",
+    "cheerio": "^0.22.0",
+    "fs": "0.0.1-security",
+    "html-to-pdf": "^0.1.11",
+    "jspdf": "^1.3.2",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.22.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
